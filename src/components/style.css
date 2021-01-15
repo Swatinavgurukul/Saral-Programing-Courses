@@ -1,0 +1,48 @@
+.search{
+    position: 'relative';
+    background-color: blue;
+    width: '100%';
+  }
+.searchIcon {
+    padding: 2px;
+    height: '100%';
+    pointer-events: 'none';
+    display: 'flex';
+    align-items: 'center';
+    justify-content: 'center';
+    position: absolute;
+    top:10px;
+    right:20px;
+  }
+  .searchbox{
+    position: absolute;
+    right:20px;
+    bottom: 10px;
+    color:white;
+  }
+.logo{
+    width:50px;
+    height:40px;
+}
+.grids{
+    /* width:300px;
+    height:120px; */
+    overflow:hidden;
+    padding:10px 30px;
+    box-shadow: 10px 10px 10px black;
+} 
+.description{
+    font-size: 8px;
+}
+pre{
+  margin:30px;
+  background-color: gray;
+}
+.kk{
+  background-color:white;
+}
+.exer{
+  background-color: blue;
+  padding:10px 1px;
+
+}
